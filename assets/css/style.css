@@ -931,6 +931,7 @@ h4 {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
 
 /*--------------------------------------------------------------
 # Contact
