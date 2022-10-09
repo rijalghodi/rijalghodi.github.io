@@ -6,8 +6,8 @@
 # General
 --------------------------------------------------------------*/
 :root {
-  --bc-primary: #000;
-  --bc-secondary: #121;
+  --bc-primary: #111;
+  --bc-secondary: #222;
   --bc-tertiary: #333;
   --tc-primary: #fff;
   --tc-secondary: #18d26e;
@@ -364,7 +364,7 @@ section.section-show {
 
 section .container {
   background: var(--bc-primary);
-  opacity: 0.92;
+  opacity: 0.9;
   padding: 30px;
 }
 
@@ -820,7 +820,7 @@ h4 {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .portfolio .portfolio-wrap::before {
@@ -839,6 +839,8 @@ h4 {
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
   position: absolute;
+  background-color: #000;
+  /* border: 2px solid white; */
   top: 0;
   left: 0;
   right: 0;
@@ -920,7 +922,7 @@ h4 {
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info::before {
